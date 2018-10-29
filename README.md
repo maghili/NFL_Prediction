@@ -5,7 +5,7 @@ In fact if we do some data analysis we find that the accuracy of ELO prediction 
 
 For the games that the prediction probability was higher than 80 percent the accuracy seems to be much better
 
-<img src = 
+<img src = "https://github.com/maghili/NFL_Prediction/blob/master/highpred.png">
 
-#How to classify?
+<h2>How to classify?</h2>
 We add a correctly predicted class, and look at ELO predictions and winning probabilities. Whenever the winning probability by ELO gives the higher probability to the winner, we classify it as correct and set it to one and we set it to zero otherwise. Doing so we can use the Logistic Regression to find whether the prediction by ELO is correct or not. My model was able to do the prediction with 100 percent.
